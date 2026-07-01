@@ -49,3 +49,14 @@ Each dataset follows the same 5 steps:
 ## Data Sources (Credit)
 - Kaggle Phishing Dataset: https://www.kaggle.com/datasets/shashwatwork/phishing-dataset-for-machine-learning
 - UCI Phishing Websites (Mohammad, Thabtah & McCluskey): https://archive.ics.uci.edu/dataset/327/phishing+websites — licensed under CC BY 4.0
+
+## Key Findings
+
+- Random Forest outperformed Logistic Regression and Decision Tree on both datasets
+- Achieved 98.55% accuracy on Kaggle data and 94.19% on UCI data
+- The most predictive features are related to suspicious external links
+  (PctExtHyperlinks, PctExtNullSelfRedirectHyperlinksRT)
+- Testing on two independent datasets shows the model generalizes well,
+  not just overfitting to one data source
+- Built an interactive demo so non-technical users can test the model directly
+
