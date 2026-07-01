@@ -3,6 +3,9 @@
 This project uses machine learning to detect phishing websites.
 I train models to classify websites as phishing or legitimate.
 
+## Live Demo
+Try it here: https://zhang-phishing-detector.streamlit.app
+
 ## Datasets
 I use two datasets to make the model more reliable.
 
